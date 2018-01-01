@@ -1,0 +1,98 @@
+
+img {
+	max-width: 100%;
+}
+
+.navbar{
+	margin-bottom: 0px;
+	position: fixed;
+	width: 100%;
+	z-index:1
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  position: fixed;
+}
+
+.b1{
+	margin-top: 0;
+	background: url("office1.jpg") no-repeat 50%/cover;
+
+}
+
+#d1{
+	min-height: 100%;
+}
+
+.image_1{
+	padding-top: 5%;
+	padding-left: 15%;
+	height: 400px;
+}
+
+.para_1{
+
+	padding-left: 15%;
+	padding-top: 10%;
+	font-size: 40px;
+	color: white;
+}
+
+#p1{
+	font-size: 60px;
+	
+}
+
+#p2{
+	font-size: 30px;
+}
+
+.b2{
+	background: url("work.jpg") no-repeat 50%/cover;
+	opacity: 0.9; 
+}
+#d2{
+	min-height: 100%;
+}
+
+.work_1{
+	padding-top: 10%;
+	margin-left: 25%;
+	height: 300px;
+	width: 300px;
+}
+
+.work_2{
+	padding-top: 15%;
+	margin-left: 25%;
+	height: 300px;
+	width: 300px;
+}
+
+.buttons{
+	padding-left: 70%;
+	margin-left: 5%;
+
+}
+
+.b3{
+	background: url("contact.jpg") no-repeat 50%/cover;
+	opacity: 0.9; 
+}
+
+#d3{
+	min-height: 100%;
+}
+
+body, html {
+    height:100%;
+    width:100%;
+    margin:0;
+}

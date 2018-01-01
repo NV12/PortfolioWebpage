@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PortfoliioWebpage</title><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+$("#home").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#d1").offset().top
+    }, 1000);
+});
+
+$("#work").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#d2").offset().top
+    }, 1000);
+});
+
+$("#contact").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#d3").offset().top
+    }, 1000);
+});
+
+});
+</script>	
+
+
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		
+		<div class="navbar-header">
+	      <a class="navbar-brand" href="#">Portfolio</a>
+	    </div>
+		
+		<ul class="nav navbar-nav navbar-right">
+			<li class="active"><a href="#d1" id="home">Home</a></li>
+			<li><a href="#d2" id="work">Work</a></li>
+			<li><a href="#d3" id="contact">Contact</a></li>
+		</ul>
+	</div>
+</nav>
+
+
+<div class="b1 img-responsive " id="d1">
+	<div class="para_1">
+		<p id="p1">I'm Naeim, Naeim Vhora</p>
+		<p id="p2"><br>I am a front end developer</p>
+	</div>
+	<div class="image_1">
+		<img src="pro_pic.jpg" id="lol">
+	</div>
+</div>
+
+<div class="b2 img-responsive " id="d2">
+	<div class="work_1">
+		<img src="my_work.jpg">
+	</div>
+	<div class="work_2">
+		<img src="my_work2.jpg">
+	</div>
+	<div class="buttons btn btn-block">
+		<a href="http://facebook.com" target="_blank" class="btn btn-default">Facebook</a>
+		<a href="http://github.com" target="_blank" class="btn btn-default">Github</a>
+	</div>
+</div>
+
+
+<div class="b3 img-responsive" id="d3">
+<div class="container">
+<br><br><br><br><br><br><br><br>
+<h2>Contact Me</h2>
+<form action="#">
+	
+	<div class="form-group">
+	<label for="Name">Name:</label>
+	<input type="text" class="form-control" id="name" placeholder="Enter your name" name="name">
+	</div>
+	
+	<div class="form-group">
+	<label for="email">email:</label>
+	<input type="text" class="form-control" id="email" placeholder="Enter your email" name="email">
+	</div>
+
+	<input type="submit" id="submit" name="submit" value="Submit">
+
+
+</form>	
+
+</div>
+</div>
+
+</body>
+</html>
